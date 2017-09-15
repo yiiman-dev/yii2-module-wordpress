@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+        url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+#adminmenu a.menu-top, #adminmenu .wp-submenu-head{
+    font-size: 13px !important;
+    font-family: yekan !important;
+}
+#adminmenu .wp-submenu a {
+    font-size: 13px;
+    font-family: yekan !important;
+
+}
+.wrap h2, .subtitle {
+    font-weight: normal;
+    font-family: yekan !important;
+    font-size: 21px !important;
+}
+.form-table th, .form-wrap label {
+    font-family: yekan !important;
+    font-size: 13px !important;
+    font-weight: normal !important
+}    
+.wrap h3.title {
+    font-family: yekan !important;
+    font-weight: normal !important;
+}
+.hndle > span {
+    font-family: yekan !important;
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+#wpcontent #wp-toolbar .menupop a, #wpcontent #wp-toolbar .menupop a .ab-label {
+    font-family: yekan !important;
+}
+
+.about-wrap .about-text, .about-wrap li.wp-person a.web, .about-wrap p.about-description {
+    font-family: yekan !important;
+}
+
+.about-wrap .feature-section h4 {
+    font-family: yekan !important;
+    font-weight: normal;
+}
+
+.about-wrap h1 {
+    font-family: yekan !important;
+}
+
+.zt-badge, .ztjalali-badge {
+  font-family: yekan !important;
+  font-size: 21px !important;
+  font-weight: normal !important;
+}
+.nav-tab-wrapper a.nav-tab {
+    font-weight: normal !important;
+}
+
+.feature-section h3 {
+    font-family: yekan !important;
+}
+.changelog h3 {
+    font-family: yekan;
+}
+.return-to-dashboard a {
+    font-family: yekan;
+    font-weight: normal;
+    font-size: 18px;
+}
