@@ -1,0 +1,153 @@
+#pomoeditor_projects td.column-pmeproject-file {
+  font-family: Consolas, Monaco, monospace; }
+#pomoeditor_projects .pme-is-modded .column-pmeproject-file a:before {
+  font-family: dashicons;
+  content: '\f464';
+  font-size: 1.2em;
+  vertical-align: top; }
+#pomoeditor_projects .column-pmeproject-type {
+  width: 70px; }
+#pomoeditor_projects .column-pmeproject-language {
+  width: 200px; }
+
+#pomoeditor table {
+  font-family: 'Helvetica Neue', Tahoma, Arial, sans-serif; }
+  #pomoeditor table > tbody > tr:hover {
+    background-color: #eee; }
+  #pomoeditor table th, #pomoeditor table td {
+    border-left: 1px solid rgba(0, 0, 0, 0.08); }
+#pomoeditor .pme-edit-col,
+#pomoeditor .pme-info-col {
+  width: 35px;
+  padding: 0; }
+#pomoeditor .pme-edit-col {
+  border-left: none; }
+
+#pomoeditor_translations .pme-context {
+  width: 200px; }
+#pomoeditor_translations .screen-reader-text {
+  position: relative;
+  margin: 0;
+  height: auto;
+  width: auto;
+  clip: auto;
+  overflow: visible;
+  opacity: .75; }
+
+.pme-translation td {
+  position: relative;
+  padding: 8px 10px; }
+.pme-translation .button {
+  margin-top: 5px; }
+.pme-translation .pme-actions,
+.pme-translation .pme-inputs,
+.pme-translation .pme-comments {
+  display: none; }
+.pme-translation .pme-preview {
+  white-space: pre-wrap; }
+.pme-translation.open .pme-edit,
+.pme-translation.open .pme-previews {
+  display: none; }
+.pme-translation.open .pme-actions,
+.pme-translation.open .pme-inputs {
+  display: block; }
+
+.pme-input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  margin: 0; }
+  .pme-input[readonly] {
+    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
+    border-color: rgba(221, 221, 221, 0.5);
+    box-shadow: none; }
+  .pme-input + .pme-input {
+    margin-top: 5px; }
+
+.pme-plural {
+  display: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding-top: 5px;
+  margin-top: 5px; }
+  .has-plural .pme-plural.pme-preview, .has-plural.open .pme-plural.pme-input {
+    display: block; }
+
+.pme-comments {
+  display: none;
+  padding: 5px 0 0;
+  font-family: Consolas, Monaco, monospace;
+  font-size: .8em; }
+  .pme-comments .pme-input,
+  .pme-comments .pme-preview {
+    font-size: 1em; }
+  .pme-comments .pme-preview {
+    margin: 0; }
+
+.has-extracted-comments.open .pme-extracted-comments,
+.has-translator-comments.open .pme-translator-comments,
+.has-references.open .pme-references {
+  display: block; }
+
+.pme-references .pme-input {
+  white-space: nowrap; }
+
+.pme-button {
+  display: block;
+  font: 0/0 a;
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  opacity: .5;
+  cursor: pointer; }
+  .pme-button:after {
+    font: 20px/35px dashicons; }
+  .pme-button:hover, .pme-button.active, tr:hover .pme-button, tr.open .pme-button {
+    opacity: 1; }
+
+.pme-edit:after {
+  content: '\f464'; }
+
+.pme-cancel:after {
+  content: '\f158'; }
+
+.pme-save:after {
+  content: '\f147';
+  font-size: 28px; }
+
+.pme-delete:after {
+  content: '\f182'; }
+
+.pme-add {
+  padding-top: 2px; }
+  .pme-add:after {
+    content: '\f132'; }
+
+.pme-direction-ltr .pme-translated {
+  direction: ltr;
+  text-align: left; }
+
+.pme-direction-rtl .pme-translated {
+  direction: rtl;
+  text-align: right; }
+
+.pomoeditor-advanced {
+  display: none; }
+  .pomoeditor-advanced-mode .pomoeditor-advanced {
+    display: block; }
+
+.pomoeditor-basic {
+  display: block; }
+  .pomoeditor-advanced-mode .pomoeditor-basic {
+    display: none; }
+
+.pomoeditor-toggle {
+  float: left;
+  padding: 6px 0; }
+
+#pomoeditor_revert {
+  color: #a00; }
+  #pomoeditor_revert:hover {
+    color: #f00; }

@@ -233,7 +233,11 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		}
 		echo "</li>";
 	}
-
+    echo '<li id="collapse-menu" class="hide-if-no-js">' .
+        '<a href="'.$_SERVER['host'].'/'.Yii::$app->systemCore->BackendAddress.'" id="collapse-button2" aria-label="' . esc_attr__( 'Back To Admin' ) . '" aria-expanded="true">' .
+        '<span class="collapse-button-icon" aria-hidden="true"></span>' .
+        '<span class="collapse-button-label">' . __( 'Collapse menu' ) . '</span>' .
+        '</button></li>';
 	echo '<li id="collapse-menu" class="hide-if-no-js">' .
 		'<button type="button" id="collapse-button" aria-label="' . esc_attr__( 'Collapse Main menu' ) . '" aria-expanded="true">' .
 		'<span class="collapse-button-icon" aria-hidden="true"></span>' .

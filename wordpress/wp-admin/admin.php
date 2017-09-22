@@ -29,6 +29,7 @@ if ( isset($_GET['import']) && !defined('WP_LOAD_IMPORTERS') )
 	define('WP_LOAD_IMPORTERS', true);
 
 require_once(dirname(dirname(__FILE__)) . '/wp-load.php');
+require_once(__DIR__.'/../../status.php');
 
 nocache_headers();
 
@@ -151,6 +152,7 @@ if ( current_user_can( 'manage_options' ) ) {
  *
  * @since 2.5.0
  */
+
 do_action( 'admin_init' );
 
 if ( isset($plugin_page) ) {

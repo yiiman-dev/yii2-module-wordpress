@@ -216,7 +216,11 @@ if ( current_user_can( 'customize' ) ) {
  *
  * @since 3.0.0
  */
-do_action( 'in_admin_header' );
+
+if (YII_DEBUG){
+
+    do_action( 'in_admin_header' );
+}
 ?>
 
 <div id="wpbody" role="main">

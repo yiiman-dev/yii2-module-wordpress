@@ -263,7 +263,7 @@ function update_nag() {
 			$cur->current
 		);
 	}
-	echo "<div class='update-nag'>$msg</div>";
+
 }
 
 // Called directly from dashboard
@@ -617,7 +617,7 @@ function maintenance_nag() {
 	else
 		$msg = __('An automated WordPress update has failed to complete! Please notify the site administrator.');
 
-	echo "<div class='update-nag'>$msg</div>";
+
 }
 
 /**

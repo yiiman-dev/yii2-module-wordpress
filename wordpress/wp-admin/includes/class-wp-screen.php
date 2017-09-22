@@ -885,18 +885,7 @@ final class WP_Screen {
 		if ( ! $this->get_help_tabs() && ! $this->show_screen_options() )
 			return;
 		?>
-		<div id="screen-meta-links">
-		<?php if ( $this->get_help_tabs() ) : ?>
-			<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
-			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false"><?php _e( 'Help' ); ?></button>
-			</div>
-		<?php endif;
-		if ( $this->show_screen_options() ) : ?>
-			<div id="screen-options-link-wrap" class="hide-if-no-js screen-meta-toggle">
-			<button type="button" id="show-settings-link" class="button show-settings" aria-controls="screen-options-wrap" aria-expanded="false"><?php _e( 'Screen Options' ); ?></button>
-			</div>
-		<?php endif; ?>
-		</div>
+
 		<?php
 	}
 

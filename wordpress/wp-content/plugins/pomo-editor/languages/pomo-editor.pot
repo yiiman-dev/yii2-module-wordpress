@@ -1,0 +1,341 @@
+# Copyright (C) 2017 PO/MO Editor
+# This file is distributed under the same license as the PO/MO Editor package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PO/MO Editor 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pomo-editor\n"
+"POT-Creation-Date: 2017-02-28 02:20:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: documentation/editor/overview.php:1 documentation/index/overview.php:1
+msgid "Overview"
+msgstr ""
+
+#: documentation/editor/overview.php:3
+msgid "This screen is the translation editor, where you can make changes to the file and recompile it."
+msgstr ""
+
+#. Translators: %1$s = edit icon, %2$s = checkmark icon, %3$s = close icon,
+#. %4$s = trash icon
+
+#: documentation/editor/overview.php:7
+msgid "Click the %1$s icon to open an entry for editing. When you’re done with your changes to an entry, <strong>you must click the %2$s icon to save it</strong>, or otherwise the %3$s icon to discard your changes. To delete an entry, click the %4$s icon (this cannot be undone)."
+msgstr ""
+
+#. Translators: %1$s = plus icon
+
+#: documentation/editor/overview.php:11
+msgid "By default, editing the source text and context is disabled, since you would need to edit any PHP code referencing it to match. If you know what you’re doing though and need to edit these, click <strong>Enable Advanced Editing</strong>. This will also open up access to add new entries (using the %1$s button) as well as edit the <strong>Headers</strong> and <strong>Metadata</strong> entries for the file."
+msgstr ""
+
+#: documentation/editor/overview.php:13
+msgid "When you’re done editing translation entries, click the <strong>Save Translations</strong> button to update the .po file and regenerate the .mo file."
+msgstr ""
+
+#: documentation/editor/overview.php:13
+msgid "It is recommended you backup the original translation files to be safe, in the event an error occurs with updating/compiling."
+msgstr ""
+
+#: documentation/editor/overview.php:15
+msgid "Some entries include a <em>context</em> qualifier, which allows multiple translations of the same basic text for different uses. The context for an entry cannot be changed."
+msgstr ""
+
+#: documentation/editor/overview.php:17
+msgid "When editing a translation entry, you can also view the <em>developer comments</em> and <em>code references</em>, as well as leave/edit your own comments under the translation. Like the source text and context, you can edit the developer comment and code references in Advanced Editing Mode."
+msgstr ""
+
+#: documentation/index/overview.php:3
+msgid "This screen lists all translation files found on your site (within the allowed directories). You can filter the selection by type, package, and/or language to find the one you want to edit. To open a file for editing, click the file’s path/name."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:124
+msgid "You should not edit the source text; errors may occur with displaying the translated text if you do."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:125
+msgid "You should not edit the context; errors may occur with displaying the translated text if you do."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:126
+msgid "You should not edit the comments; these were dictated by the developer."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:127
+msgid "Are you sure you want enable advanced editing? You may break some of your translations if you change the source text or context values."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:128
+msgid "Are you sure you want to discard your changes?"
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:129
+msgid "Are you sure you want to delete this entry? It cannot be undone."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:130
+msgid "You have uncommitted translation changes, do you want to discard them before saving?"
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:131
+msgid "Advanced Editing Enabled"
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:132
+msgid "Saving Translations..."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:133
+msgid "Are you sure you want to revert? The modified version will be deleted and cannot be recovered."
+msgstr ""
+
+#: includes/class-pomoeditor-backend.php:197
+msgid "One or more translation files have had their originals updated. Please update your edited versions of them."
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:60
+#: includes/class-pomoeditor-manager.php:61
+msgid "PO/MO Editor"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:116
+#: includes/class-pomoeditor-manager.php:151
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#. Translators: %s = full path to file
+
+#: includes/class-pomoeditor-manager.php:126
+msgid "The requested file is not supported: %s"
+msgstr ""
+
+#. Translators: %s = full path to file
+
+#: includes/class-pomoeditor-manager.php:131
+msgid "The requested file cannot be found: %s"
+msgstr ""
+
+#. Translators: %s = full path to file
+
+#: includes/class-pomoeditor-manager.php:136
+msgid "The requested file is not within one of the permitted paths: %s"
+msgstr ""
+
+#. Translators: %s = full path to file
+
+#: includes/class-pomoeditor-manager.php:141
+msgid "The requested file is not writable: %s"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:223
+#: includes/class-pomoeditor-manager.php:237
+msgid "Filter by type"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:225
+msgid "All types"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:230
+msgid "Filter by package"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:232
+msgid "All packages"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:239
+msgid "All languages"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:246
+msgid "Show Edited Files Only"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:254
+msgid "File"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:255
+msgid "Package"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:256
+msgid "Type"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:257
+msgid "Language"
+msgstr ""
+
+#. Translators: %1$s = filename
+
+#: includes/class-pomoeditor-manager.php:317
+msgid "Editing: <code>%s</code>"
+msgstr ""
+
+#. Translators: %1$s = filename, %2$s = URL
+
+#: includes/class-pomoeditor-manager.php:322
+msgid "Original: <a href=\"%2$s\" target=\"_blank\">%1$s</a>"
+msgstr ""
+
+#. Translators: %1$s = package name, %2$s = package type (system, theme,
+#. plugin)
+
+#: includes/class-pomoeditor-manager.php:328
+msgid "<strong>Package:</strong> %1$s (%2$s)"
+msgstr ""
+
+#. Translators: %1$s = language name
+
+#: includes/class-pomoeditor-manager.php:332
+msgid "<strong>Language:</strong> %1$s"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:336
+msgid "Enable Advanced Editing"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:339
+msgid "Revert to Original"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:343
+msgid "Translations"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:349
+#: includes/class-pomoeditor-manager.php:367
+msgid "Add Translation Entry"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:349
+msgid "Add Entry"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:351
+msgid "Source Text"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:352
+msgid "Translated Text"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:353
+msgid "Context"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:361
+msgid "Headers"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:369
+#: includes/class-pomoeditor-manager.php:383
+msgctxt "header name"
+msgid "Name"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:370
+#: includes/class-pomoeditor-manager.php:384
+msgctxt "header value"
+msgid "Value"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:377
+msgid "Metadata"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:393
+msgid "Save Translations"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:398
+#: includes/class-pomoeditor-manager.php:414
+msgid "Delete"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:410
+msgid "Edit"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:412
+msgid "Cancel"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:413
+msgid "Save"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:419
+#: includes/class-pomoeditor-manager.php:423
+#: includes/class-pomoeditor-manager.php:433
+#: includes/class-pomoeditor-manager.php:437
+msgid "Singular"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:420
+#: includes/class-pomoeditor-manager.php:424
+#: includes/class-pomoeditor-manager.php:434
+#: includes/class-pomoeditor-manager.php:438
+msgid "Plural"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:428
+msgid "Developer Comments"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:441
+msgid "Translator Comments"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:453
+msgid "Code References"
+msgstr ""
+
+#: includes/class-pomoeditor-manager.php:504
+msgid "Translations saved and recompiled."
+msgstr ""
+
+#: includes/class-pomoeditor-project.php:293
+msgid "WordPress Admin"
+msgstr ""
+
+#: includes/class-pomoeditor-project.php:296
+msgid "WordPress Network Admin"
+msgstr ""
+
+#: includes/class-pomoeditor-project.php:299
+msgid "Continent & City Names"
+msgstr ""
+
+#: includes/class-pomoeditor-project.php:303
+msgid "WordPress Core"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "PO/MO Editor"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/dougwollison/pomo-editor"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Edit gettext po/mo files within WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Doug Wollison"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://dougw.me"
+msgstr ""
+
+#. Tags of the plugin/theme
+msgid "pomo, po file, mo file, gettext, file editor"
+msgstr ""
