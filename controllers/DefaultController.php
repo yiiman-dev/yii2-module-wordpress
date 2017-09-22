@@ -90,7 +90,9 @@ class DefaultController extends Controller
             echo 'Error:' . curl_error($ch);
         }
         curl_close ($ch);
-
+        include (__DIR__.'/../../../../cms/wp-load.php');
+        include (__DIR__.'/../../../../cms/wp-content/plugins/LayerSlider/wp/activation.php');
+        layerslider_activation();
         $this->redirect('/cms');
 
     }
