@@ -3723,7 +3723,7 @@ var LayerSlider = {
 
 		}).on( 'slideTimelineDidCreate', function(){
 			jQuery( '.ls-slidebar-slider' ).attr({
-				'data-help': 'Drag me :)',
+				'data-help': 'منو جابجا کن :)',
 				'data-km-ui-popover-once': 'true',
 				'data-km-ui-popover-theme': 'red',
 				'data-km-ui-popover-autoclose': 3,

@@ -82,7 +82,7 @@
 				<td class="slide-transition">
 					<h3 class="subheader"><?php _e('Slide Transition', 'LayerSlider') ?></h3>
 					<div class="inner">
-						<button type="button" class="button ls-select-transitions new" data-help="<?php _e('You can select your desired slide transitions by clicking on this button.', 'LayerSlider') ?>">Select transitions</button> <br>
+						<button type="button" class="button ls-select-transitions new" data-help="<?php _e('You can select your desired slide transitions by clicking on this button.', 'LayerSlider') ?>">انتخاب انتقال دهنده ها</button> <br>
 						<div class="row-helper">
 							<?php lsGetInput($lsDefaults['slides']['transitionDuration'], null, array('class' => 'slideprop')) ?>
 							<span>ms</span>

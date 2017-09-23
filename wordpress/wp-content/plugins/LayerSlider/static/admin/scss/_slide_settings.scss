@@ -283,7 +283,7 @@ div.ls-image {
 
 	&.not-set:after,
 	&.has-image:hover:after {
-		content: 'Click to set';
+		content: 'کلیک و تنظیم';
 		position: absolute;
 		top: 0;
 		bottom: 0;
@@ -299,7 +299,7 @@ div.ls-image {
 	}
 
 	&.has-image:hover:after {
-		content: 'Click to change' !important;
+		content: 'برای تغییر کلیک کنید' !important;
 	}
 
 	&.hover div,

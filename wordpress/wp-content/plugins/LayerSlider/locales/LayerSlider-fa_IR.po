@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: layerslider\n"
 "POT-Creation-Date: 2017-04-05 21:57+0200\n"
-"PO-Revision-Date: 2017-09-22 13:41-0400\n"
+"PO-Revision-Date: 2017-09-23 09:39-0400\n"
 "Last-Translator: amin_tado <amintado@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -87,7 +87,7 @@ msgstr "عرض بوم"
 
 #: config/defaults.php:86
 msgid "The width of the slider canvas in pixels."
-msgstr "عرض صفحه لغزنده در پیکسل."
+msgstr "عرض بوم اسلاید به پیکسل."
 
 #: config/defaults.php:99
 msgid "Canvas height"
@@ -95,7 +95,7 @@ msgstr "ارتفاع بوم"
 
 #: config/defaults.php:101
 msgid "The height of the slider canvas in pixels."
-msgstr "ارتفاع صفحه لغزنده در پیکسل."
+msgstr "ارتفاع بوم اسلاید به پیکسل."
 
 #: config/defaults.php:115
 msgid "Max-width"
@@ -295,7 +295,7 @@ msgstr "درجه ی مرکز اختلاف منظر paralax"
 
 #: config/defaults.php:309
 msgid "Provide a comfortable holding position (in degrees) for mobile devices, which should be the center point for parallax content where all layers should align perfectly."
-msgstr ""
+msgstr "یک محدوده به واحد درجه برای استفاده ی راحت در دستگاه های موبایل ایجاد می کند، که مرکز محتوای اختلاف منظر خواهد بود و همه ی لایه ها با آن هماهنگ می شوند."
 
 #: config/defaults.php:316
 msgid "Your parallax layers will move to the opposite direction when scrolling the page."
@@ -315,7 +315,7 @@ msgstr "مخفی کردن زیرمنوی ایتم های منو در موبای�
 
 #: config/defaults.php:339
 msgid "Hides the slider on mobile devices, including tablets."
-msgstr ""
+msgstr "مخفی سازی بوم اسلایدر در دستگاه های موبایل، و تبلت ها."
 
 #: config/defaults.php:347
 msgid "Hide under"
@@ -420,7 +420,7 @@ msgstr "شروع اسلاید با اسکرول"
 
 #: config/defaults.php:445
 msgid "Play the slider by scrolling the web page. <a href=\"https://layerslider.kreaturamedia.com/sliders/play-by-scroll/\" target=\"_blank\">Click here</a> to see a live example."
-msgstr ""
+msgstr "پخش اسلایدر با اسکرول صفحه ی وبسایت برای یک نمونه ی زنده <a href=\"https://layerslider.kreaturamedia.com/sliders/play-by-scroll/\" target=\"_blank\">اینجا کلیک کنید</a>."
 
 #: config/defaults.php:452
 msgid "Play By Scroll Speed"
@@ -671,7 +671,7 @@ msgstr "ارتفاع تصاویر بندانگشتی در ناحیه ناوبر�
 
 #: config/defaults.php:753
 msgid "Active thumbnail opacity"
-msgstr "فعال کردن حالت شفافیت تصاویربندانگشتی"
+msgstr "شفافیت تصاویر بندانگشتی فعال"
 
 #: config/defaults.php:755
 msgid "Opacity in percentage of the active slide's thumbnail."
@@ -763,7 +763,8 @@ msgstr "لوگوی شما"
 
 #: config/defaults.php:865
 msgid "A fixed image layer can be shown above the slider that remains still throughout the whole slider. Can be used to display logos or watermarks."
-msgstr ""
+msgstr "یک تصویر ثابت در بالا و روی بوم اسلاید به صورت ثابت نمایش داده میشود.\n"
+"از این گزینه میتوانید برای نمایش مارک و یا لوگوی سایت خود استفاده کنید."
 
 #: config/defaults.php:872
 msgid "YourLogo style"
@@ -779,7 +780,8 @@ msgstr "لینک لوگوی شما"
 
 #: config/defaults.php:883
 msgid "Enter a URL to link the YourLogo image."
-msgstr "لینک لوگوی خود را وارد کنید."
+msgstr "اگر لوگوی شما در این سایت آپلود نشده و یا میخواهید از لوگویی که روی سایت دیگری قرار دارد استفاده کنید،\n"
+"لینک لوگوی مد نظر خود را اینجا وارد کنید."
 
 #: config/defaults.php:890
 msgid "Link target"
@@ -867,7 +869,7 @@ msgstr "موقعیت تصویر زمینه ی اسلاید. اگر قصد دار
 #: config/defaults.php:1089 config/defaults.php:1869 config/defaults.php:2249
 #: config/defaults.php:3364 config/defaults.php:3868
 msgid "Color"
-msgstr "رنگ:"
+msgstr "رنگ متن:"
 
 #: config/defaults.php:1091
 msgid "The slide background color. You can use color names, hexadecimal, RGB or RGBA values."
@@ -973,7 +975,7 @@ msgstr "لایه های سرریزشده"
 
 #: config/defaults.php:1288
 msgid "By default the slider clips the layers outside of its bounds. Enable this option to allow overflowing content."
-msgstr "به صورت پیش فرض لایه های خارج از محدوده اش را برش میزند، روشن کردن این گزینه، امکان اسکرول شدن حتوی را به اسلایذر میدهد، تا لایه به صورت کامل قابل نمایش باشد."
+msgstr "سیستم اسلایدر به صورت پیش فرض لایه های خارج از محدوده اش را برش میزند، روشن کردن این گزینه، امکان اسکرول شدن محتوی را به اسلایدر میدهد، تا لایه به صورت کامل قابل نمایش باشد."
 
 #: config/defaults.php:1294
 msgid "Zoom"
@@ -1163,7 +1165,7 @@ msgstr "ویدیو های خود را با عکسی که با افکت نقطه 
 #: config/defaults.php:1658 config/defaults.php:1946 config/defaults.php:2348
 #: config/defaults.php:2634 config/defaults.php:2894 config/defaults.php:3199
 msgid "OffsetX"
-msgstr "آفست X"
+msgstr "مکان شروع روی محور X"
 
 #: config/defaults.php:1660
 msgid "Shifts the layer starting position from its original on the horizontal axis with the given number of pixels. Use negative values for the opposite direction. Percentage values are relative to the width of this layer. The values 'left' or 'right' position the layer out the staging area, so it enters the scene from either side when animating to its destination location."
@@ -1172,7 +1174,7 @@ msgstr ""
 #: config/defaults.php:1687 config/defaults.php:1975 config/defaults.php:2380
 #: config/defaults.php:2666 config/defaults.php:2923 config/defaults.php:3216
 msgid "OffsetY"
-msgstr "آفست Y"
+msgstr "مکان شروع روی محور Y"
 
 #: config/defaults.php:1689
 msgid "Shifts the layer starting position from its original on the vertical axis with the given number of pixels. Use negative values for the opposite direction. Percentage values are relative to the height of this layer. The values 'top' or 'bottom' position the layer out the staging area, so it enters the scene from either vertical side when animating to its destination location."
@@ -1197,7 +1199,7 @@ msgstr "مکث انتقال دهنده به اندازه ی  میزان وارد
 #: views/transition_builder.php:227 views/transition_builder.php:297
 #: views/transition_builder.php:385 views/transition_builder.php:510
 msgid "Easing"
-msgstr "کاهش"
+msgstr "انیمیشن"
 
 #: config/defaults.php:1743 config/defaults.php:2068
 #: templates/tmpl-2d-transition.php:59 templates/tmpl-3d-transition.php:73
@@ -2653,27 +2655,27 @@ msgstr "Opening Transition properties"
 
 #: templates/tmpl-layer.php:191 templates/tmpl-layer.php:512
 msgid "Opening Text Transition properties"
-msgstr "در حال باز کردن خصوصیت های انتقال دهنده متن"
+msgstr "انیمیشن های قابل اعمال روی متن برای شروع نمایش"
 
 #: templates/tmpl-layer.php:192
 msgid "Loop or Middle Transition properties"
-msgstr "خواص حلقه های انتقال دهنده"
+msgstr "حلقه های انیمیشن"
 
 #: templates/tmpl-layer.php:193 templates/tmpl-layer.php:899
 msgid "Ending Text Transition properties"
-msgstr "در حال پایان دادن به خصوصیت های انتقال دهنده متن"
+msgstr "انیمیشن های قابل اعمال روی متن برای پایان اسلاید"
 
 #: templates/tmpl-layer.php:194 templates/tmpl-layer.php:1081
 msgid "Ending Transition properties"
-msgstr "در حال اتمام خصوصیت های انتقال دهنده"
+msgstr "انیمیشن هایی که حین اتمام اسلاید اجرا می شوند"
 
 #: templates/tmpl-layer.php:195 templates/tmpl-layer.php:1313
 msgid "Hover Transition properties"
-msgstr "حصوصیت های هاور برای انتقال دهنده"
+msgstr "انیمیشن هایی که زمان هاور ماوس اجرا میشوند"
 
 #: templates/tmpl-layer.php:196 templates/tmpl-layer.php:1436
 msgid "Parallax Transition properties"
-msgstr "خصوصیت های انتقال دهنده ی اختلاف منظر paralax"
+msgstr "خصوصیت های اختلاف منظر"
 
 #: templates/tmpl-layer.php:207
 msgid "Opening<br>Transition"
@@ -2791,7 +2793,7 @@ msgstr "با اصلاحیه ی"
 
 #: templates/tmpl-layer.php:694
 msgid "Loop / Middle Transition properties"
-msgstr "خواص حلقه های انتقال دهنده"
+msgstr "حلقه های انیمیشن"
 
 #: templates/tmpl-layer.php:698
 msgid "Repeats a transition based on the options below. If you set the Loop Count to 1, it can also act as a middle transition in the chain of animation lifecycles."
@@ -3319,7 +3321,7 @@ msgstr "نام گوشی کشویی خود را اینجا بنویسید"
 
 #: templates/tmpl-slider-settings.php:14
 msgid "Slider slug"
-msgstr "اسلایدر لوله"
+msgstr "اسم اسلایدر"
 
 #: templates/tmpl-slider-settings.php:14
 msgid "e.g. homepageslider"
@@ -3355,7 +3357,7 @@ msgstr "منطقه ناوبری"
 
 #: templates/tmpl-slider-settings.php:34
 msgid "Thumbnail Navigation"
-msgstr "تصویر بند انگشتی انتخاب"
+msgstr "انتخاب تصویر بند انگشتی"
 
 #: templates/tmpl-slider-settings.php:35
 msgid "Videos"
@@ -3403,7 +3405,7 @@ msgstr "ظاهر اسلایدر"
 
 #: templates/tmpl-slider-settings.php:215
 msgid "Custom slider CSS"
-msgstr "سی اس اس اسلایدر سفارشی"
+msgstr "کد CSS سفارشی بوم"
 
 #: templates/tmpl-slider-settings.php:219
 msgid "Slider global background"
@@ -3817,7 +3819,7 @@ msgstr "ویرایشگر قالب"
 #: views/skin_editor.php:50 views/slider_edit.php:332 views/style_editor.php:45
 #: views/transition_builder.php:76
 msgid "Back to the list"
-msgstr "برگشت به لیست بعد از پاسخ"
+msgstr ""
 
 #: views/skin_editor.php:56 views/style_editor.php:51
 #: views/transition_builder.php:80
@@ -4017,7 +4019,7 @@ msgstr "استفاده از shortcode:"
 
 #: views/slider_edit.php:757
 msgid "Use PHP function:"
-msgstr "استفاده از پی اچ پی تابع:"
+msgstr "استفاده از در PHP:"
 
 #: views/slider_list.php:131
 msgid "Successfully emptied LayerSlider caches."

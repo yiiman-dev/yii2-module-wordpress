@@ -162,15 +162,15 @@ button:active,
 	position: relative;
 	width: 125px;
 	height: 30px;
-	padding: 0px 10px 0 10px;
-	border: 1px solid #dfdfdf;
-	color: #aaa;
-	background-color: #f9f9f9;
+	padding: 0px 30px 0 10px;
+	border: 1px solid hsl(0, 0%, 87.5%);
+	color: hsl(0, 0%, 66.7%);
+	background-color: hsl(0, 0%, 97.6%);
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 	text-decoration: none;
-	float: left;
-	margin: 3px 3px 0px 0px;
+	float: right;
+	margin: 3px 0px 0px 3px;
 	line-height: 30px;
 	font-size: 13px;
 }
@@ -610,6 +610,7 @@ body #ls-layers table.noborder td {
 	border-spacing: 0 !important;
 	padding: 0 !important;
 	border: 0 !important;
+	direction: rtl;
 }
 
 .ls-layers-table td {
@@ -723,7 +724,7 @@ li.active .ls-sublayer-title {
 	display: none;
 	position: absolute;
 	top: 0px;
-	right: 25px;
+	left: 25px;
 	font-size: 17px;
 	height: 34px;
 	line-height: 34px;
@@ -734,7 +735,7 @@ li.active .ls-sublayer-title {
 }
 
 .ls-sublayers .remove {
-	right: 5px;
+	left: 5px;
 }
 
 .ls-sublayers .duplicate:hover {
@@ -1185,6 +1186,7 @@ li.active .ls-sublayer-title {
 
 .ls-publish {
 	margin-top: 30px;
+	margin-left: 19px;
 }
 
 .ls-publish button {
@@ -1395,7 +1397,7 @@ a.saving {
 
 .ls-sublayer-options .dashicons.dashicons-search {
 	position: absolute;
-	margin: 6px 0 0 2px !important;
+	margin: 6px -22px 0 0px !important;
 	cursor: pointer;
 	z-index: 1;
 	font-size: 15px;
