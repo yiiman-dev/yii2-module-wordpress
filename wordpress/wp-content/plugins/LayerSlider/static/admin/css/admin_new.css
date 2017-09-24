@@ -4915,11 +4915,11 @@ tr.active .ls-sublayer-controls {
 .ls-sublayer-basic .ls-layer-kind ul li {
     display: inline-block;
     margin: 0;
-    padding: 5px 15px 5px 0px;
-    border-left: 1px solid white;
-    border-right: 1px solid #dedede;
+    padding: 5px 0px 5px 15px;
+    border-left: 1px solid hsl(0, 0%, 100%);
+    border-right: 1px solid hsl(0, 0%, 87.1%);
     cursor: pointer;
-    color: #555;
+    color: hsl(0, 0%, 33.3%);
     font-size: 12px;
     line-height: 20px;
 }

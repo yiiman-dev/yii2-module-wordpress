@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: layerslider\n"
 "POT-Creation-Date: 2017-04-05 21:57+0200\n"
-"PO-Revision-Date: 2017-09-23 09:39-0400\n"
+"PO-Revision-Date: 2017-09-24 06:49-0400\n"
 "Last-Translator: amin_tado <amintado@gmail.com>\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
@@ -1563,7 +1563,7 @@ msgstr "شروع در"
 
 #: config/defaults.php:2445 config/defaults.php:2971
 msgid "Opening Transition starts"
-msgstr "در حال باز کردن شروع انتقال دهنده"
+msgstr "آغاز انیمیشن"
 
 #: config/defaults.php:2471 config/defaults.php:2760
 msgid "Rotates text fragments clockwise by the given number of degrees. Negative values are allowed for counterclockwise rotation. By listing multiple values separated with a | character, the slider will use different transition variations on each text node by cycling between the provided values."
@@ -2643,7 +2643,7 @@ msgstr "بر روی یک یا چند پست کلیک کنید تا به لایه
 
 #: templates/tmpl-layer.php:179
 msgid "Limit text length (if any)"
-msgstr "طول متن محدودیت (در صورت وجود)"
+msgstr "محدودیت طول متن (در صورت وجود)"
 
 #: templates/tmpl-layer.php:181
 msgid "Configure post options"
@@ -2651,7 +2651,7 @@ msgstr "خصوصیت های شرطی پست"
 
 #: templates/tmpl-layer.php:190 templates/tmpl-layer.php:287
 msgid "Opening Transition properties"
-msgstr "Opening Transition properties"
+msgstr "تنظیمات انیمیشن آغازین لایه"
 
 #: templates/tmpl-layer.php:191 templates/tmpl-layer.php:512
 msgid "Opening Text Transition properties"
@@ -2679,11 +2679,11 @@ msgstr "خصوصیت های اختلاف منظر"
 
 #: templates/tmpl-layer.php:207
 msgid "Opening<br>Transition"
-msgstr "در حال باز کردن <br> انتقال دهنده ها"
+msgstr "آغاز انیمیشن"
 
 #: templates/tmpl-layer.php:219
 msgid "Opening Text<br>Transition"
-msgstr "در حال باز مردن متن<br> انتقال دهنده"
+msgstr "انیمیشن متن"
 
 #: templates/tmpl-layer.php:228
 msgid "Loop or Middle<br>Transition"
@@ -2720,7 +2720,7 @@ msgstr "فعال"
 
 #: templates/tmpl-layer.php:291
 msgid "The following are the initial options from which this layer animates toward the appropriate values set under the Styles tab when it enters into the slider canvas."
-msgstr ""
+msgstr "این بخش امکاناتی را در اختیار شما قرار میدهد تا بتوانید ورود این لایه به صحنه ی اسلاید را تنظیم کنید و برای آن انیمیشن خاص خود را بسازید."
 
 #: templates/tmpl-layer.php:293 templates/tmpl-layer.php:518
 #: templates/tmpl-layer.php:700 templates/tmpl-layer.php:905
@@ -2761,7 +2761,8 @@ msgstr "ویژگی های سبک"
 
 #: templates/tmpl-layer.php:516
 msgid "The following options specify the initial state of each text fragments before they start animating toward the joint whole word."
-msgstr "گزینه های زیر حالت ابتدایی هر یک از قطعات متن را مشخص می کند قبل از اینکه آن را به سمت مشترک متصل کند."
+msgstr "گزینه های زیر به شما این امکان را میدهند که انیمیشن متن این لایه را از انیمیشن خود لایه جدا کنید.\n"
+"در واقع اینجا میتوانید برای محتوای متنی لایه انیمیشن خاص خود را بسازید."
 
 #: templates/tmpl-layer.php:526 templates/tmpl-layer.php:913
 msgid "Type, Position &amp; Dimensions"
@@ -2797,11 +2798,13 @@ msgstr "حلقه های انیمیشن"
 
 #: templates/tmpl-layer.php:698
 msgid "Repeats a transition based on the options below. If you set the Loop Count to 1, it can also act as a middle transition in the chain of animation lifecycles."
-msgstr ""
+msgstr "تکرار شدن انیمیشن های این لایه از این قسمت مدیریت میشود.\n"
+"اگر شما تعداد تکرار را در اینجا برابر 1 قرار دهید، انیمیشن ها یک بار دیگر اجرا خواهند شد."
 
 #: templates/tmpl-layer.php:903
 msgid "Each text fragment will animate from the joint whole word to the options you specify here."
-msgstr ""
+msgstr "اینجا میتوانید تنظیم کنید که محتوای متنی درون این لایه با جه انیمیشنی و از چه موقعیتی از صفحه خارج شوند.\n"
+"این تنظیمات برای زمانیست که اسلاید در حال عوض شدن است و لایه ها در حال خارج شدن از صحنه هستند، در این صورت متن ها با تنظیمات اینجا از روی صحنه خارج می شوند."
 
 #: templates/tmpl-layer.php:1085
 msgid "The following options will be the end values where this layer animates toward when it leaves the slider canvas."
@@ -2809,11 +2812,11 @@ msgstr "گزینه های زیر مقادیر پایانی است که این ل
 
 #: templates/tmpl-layer.php:1317
 msgid "Plays a transition based on the options below when the user moves the mouse cursor over this layer."
-msgstr ""
+msgstr "وقتی کاربر ماوس را روی این اسلاید تکان میدهد، شما در اینجا، رفتار لایه های خود را کنترل می کنید."
 
 #: templates/tmpl-layer.php:1440
 msgid "Select a parallax type and event, then set the Parallax Level option to enable parallax layers."
-msgstr ""
+msgstr "پارالاکس یا همان اختلاف منظر به شما این امکان را میدهد که با اسکرول کاربر یا تکان دادن ماوس، لایه ها بر خلاف همدیگر حرکت کنند و شما احساس واقعی بودن و زنده بودن اسلاید را داشته باشید. تنظیمات پارالاکس در اینجا انجام میشود."
 
 #: templates/tmpl-layer.php:1449
 msgid "Basic Settings"
@@ -3329,7 +3332,7 @@ msgstr "مثلا: اسلایدر صفحه اصلی"
 
 #: templates/tmpl-slider-settings.php:21 views/slider_edit.php:347
 msgid "Slider Settings"
-msgstr "تنظیمات کشویی"
+msgstr "تنظیمات اسلاید"
 
 #: templates/tmpl-slider-settings.php:23
 msgid "Show advanced settings"
@@ -4215,7 +4218,7 @@ msgstr "بازگرداندن نوار لغزنده حذف"
 
 #: views/slider_list.php:360 views/slider_list.php:456
 msgid "Export"
-msgstr "Exportar"
+msgstr "خروجی گرفتن"
 
 #: views/slider_list.php:366 views/slider_list.php:462
 msgid "Duplicate"
@@ -4267,7 +4270,7 @@ msgstr "بازگردانی مورد انتخاب شده"
 
 #: views/slider_list.php:514
 msgid "Merge selected as new"
-msgstr "ادغام به عنوان جدید انتخاب شده"
+msgstr "ادغام انتخاب شده ها در اسلاید جدید"
 
 #: views/slider_list.php:520
 msgid "items"

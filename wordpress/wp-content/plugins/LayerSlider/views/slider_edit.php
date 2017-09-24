@@ -362,7 +362,7 @@ include LS_ROOT_PATH . '/templates/tmpl-transition-window.php';
 				<i class="dashicons dashicons-editor-help"></i>
 				<?php _e('Documentation', 'LayerSlider') ?>
 			</a>
-			<span class="right help"><?php _e('Need help? Try these:', 'LayerSlider') ?></span>
+			<span class="right help">به راهنمایی نیاز دارید؟ این را امتخان کنید:</span>
 			<a href="#" class="clear unselectable"></a>
 		</div>
 
