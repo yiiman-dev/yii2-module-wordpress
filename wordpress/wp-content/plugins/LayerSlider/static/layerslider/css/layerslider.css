@@ -1021,7 +1021,7 @@
 	html .ls-direction-fix,
 	body .ls-direction-fix,
 	#ls-global .ls-direction-fix {
-		direction: ltr !important;
+		direction: rtl !important;
 	}
 
 	/* float: none */
@@ -1029,7 +1029,7 @@
 	html .ls-container,
 	body .ls-container,
 	#ls-global .ls-container {
-		float: none !important;
+		float: left !important;
 	}
 
 
