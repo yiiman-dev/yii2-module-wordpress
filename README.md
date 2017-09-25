@@ -1,4 +1,7 @@
-this is a customized wordpress module for yii2
+this module is a customized WordPress module for yii2
+
+## Installed WordPress
+![untitled](https://user-images.githubusercontent.com/11722893/30788124-a851add4-a1a3-11e7-90df-c9b94d64ab55.png)
 
 ## install
 ````
@@ -25,11 +28,25 @@ for example:
                 ]
 ]
 ````
-## Install Wordpress
+create a php file with this name in root project directory:
+`status.php`
+add this lines to `status.php`:
+````
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
+defined('WP_USE_THEMES') or define('WP_USE_THEMES', true);
+````
+now delete this lines from your Yii2 app index file to prevent conflict:
+````
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENV') or define('YII_ENV', 'dev');
+````
+## Now Install Wordpress
 open this link:
 http://yourhost.com/frontend/index.php/cms
 
 then module will create a folder with 'cms' name in your root project directory, and will install WordPress there.
+
 wordpress tables will create automatic in your DB if you are using mysql by default.
 
 after install system will redirect webpage to installed wordpress directory.
@@ -39,6 +56,8 @@ after wp installed,you can login to wp with this config:
 
 
 admin username:wpadmin
+
+
 admin password: 123456789
 
 ## Change Parameters
@@ -82,4 +101,35 @@ use it in nedded controllers or actions only.
 
 if you require wp-load.php file in your index.php file or any certain part of project, your CSRF validation in login,logout and every form in your site will conflict with wordpress,and your posted data will filter and will change to null.
 
+## use YII2 functions in  installed WordPress
+**wp-load.php** file is contain Yii2 starter php files.
 
+you can see added codes here:
+````
+require (__DIR__.'/../status.php');
+
+if (strpos(parse_url($_SERVER  ["REQUEST_URI"])['path'],'cms',0)){
+
+require(__DIR__ . '/../vendor/autoload.php');
+require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
+require(__DIR__ . '/../common/config/bootstrap.php');
+require(__DIR__ . '/../backend/config/bootstrap.php');
+//require(__DIR__ . '/../cms/wp-load.php');
+
+$config = yii\helpers\ArrayHelper::merge(
+    require(__DIR__ . '/../common/config/main.php'),
+    require(__DIR__ . '/../common/config/main-local.php'),
+    require(__DIR__ . '/../backend/config/main.php'),
+    require(__DIR__ . '/../backend/config/main-local.php')
+);
+
+(new yii\web\Application($config));
+
+}
+````
+
+## WordPress Version
+the based wordpress that used in this module:
+
+version:4.8.1
+with persian full translated package
