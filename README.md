@@ -79,7 +79,7 @@ you can also change default parameters before install WordPress on Your project,
 wordpress admin options and menu will disable in debug mode,
 for example if YII_DEBUG=true then all wordpress admin menus and admin bars will disable.
 
-
+this settings can set or unset in `function.php` file in theme folder.
 if you have solution for that, tell me your solution.
 
 ## License
