@@ -5,12 +5,12 @@ this module is a customized WordPress module for yii2
 
 ## install
 ````
-$ composer require amintado/yii2-module-wordpress "*"
+$ composer require amintado/yii2-module-wordpress "v0.1.x-dev"
 ````
 OR
 add this line to composer.json
 ````
-"amintado/yii2-module-wordpress":"*"
+"amintado/yii2-module-wordpress":"v0.1.x-dev"
 ````
 ## Config
 add 
